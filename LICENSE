@@ -1,0 +1,25 @@
+Copied from dumpasn1.c:
+
+   ASN.1 data display code, copyright Peter Gutmann 
+   <pgut001@cs.auckland.ac.nz>, based on ASN.1 dump program by David Kemp, 
+   with contributions from various people including Matthew Hamrick, Bruno 
+   Couillard, Hallvard Furuseth, Geoff Thorpe, David Boyce, John Hughes, 
+   'Life is hard, and then you die', Hans-Olof Hermansson, Tor Rustad, 
+   Kjetil Barvik, James Sweeny, Chris Ridd, David Lemley, John Tobey, James 
+   Manger and several other people whose names I've misplaced.
+
+   You can use this code in whatever way you want, as long as you don't try 
+   to claim you wrote it.
+
+   (Someone asked for clarification on what this means, treat it as a very 
+   mild form of the BSD license in which you're not required to include LONG 
+   LEGAL DISCLAIMERS IN ALL CAPS but just a small note in a corner somewhere 
+   (e.g. the back of a manual) that you're using the dumpasn1 code.  And if 
+   you do use it, please make sure you're using a recent version, I 
+   occasionally see screen shots from incredibly ancient versions that are
+   nowhere near as good as what current versions produce).
+
+   Editing notes: Tabs to 4, phasers to malky (and in case anyone wants to
+   complain about that, see "Program Indentation and Comprehensiblity",
+   Richard Miara, Joyce Musselman, Juan Navarro, and Ben Shneiderman,
+   Communications of the ACM, Vol.26, No.11 (November 1983), p.861) */
